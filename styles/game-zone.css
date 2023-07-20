@@ -23,7 +23,7 @@ font-size: 23px;
     height: 40px;
     margin-right: 20px;
 }
-.icon-name{
+.icon-name-main{
     color: #0B0223;
 font-size: 30px;
 font-weight: 700;
@@ -33,7 +33,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
+   
 }
 .nav-buttons > ul{
     display: flex;
@@ -78,7 +78,7 @@ padding: 10px 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 650px;
+   
    
     
    
@@ -107,7 +107,7 @@ background-clip: text;
 }
 #banner-img{
     padding: 0px 220px 0px 0px ;
-    background-image: none;
+   
 }
 .btn-banner1{
     color: white;
@@ -135,6 +135,8 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     align-items: center;
     justify-content: space-between;
     text-align: right;
+   
+    background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .banner2-img{
     padding: 0px 0px 0px 220px;
@@ -157,13 +159,303 @@ background-clip: text;
     font-size: 18px;
     
 }
-.banner2-unerline1{
+.banner2-underline1{
     color: #534C64;
 font-size: 20px;
 font-weight: 500;
 }
-.banner2-unerline2{
+.banner2-underline2{
     color: #534C64;
-font-size: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+
+
+/* Video description */
+
+.video-title1{
+    text-align: center;
+ color: #0B0223;
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.video-title2{
+font-size: 40px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.video-para{
+    color: #534C64;
+text-align: center;
+font-size: 17px;
+font-weight: 400;
+padding-top: 0px;
+padding-bottom: 20px;
+
+}
+.video-img-name{
+    color: #534C64;
+font-size: 15px;
+font-weight: 500;
+}
+
+.video-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+
+.video-img-box1 img {
+    border: 8px solid transparent;
+    border-radius: 48px;
+    transition: border-color 0.3s ease;
+}
+.video-img-box1 img:hover{
+    border-color: #FF42A5;
+    
+}
+
+
+
+/* poster - section */
+
+.poster-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+.poster-title{
+ text-align: right;
+font-size: 38px;
+font-weight: 700;
+line-height: 40px; 
+
+}
+.poster-title2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.poster-para{
+    color: #534C64;
+text-align: right;
+font-size: 15px;
+font-weight: 400;
+}
+.poster-img2{
+    position: relative;
+    right: 140px;
+    top: -200px;
+}
+.poster-img1 img{
+    height: 580px;
+    width: 560px;
+}
+.poster-img2 img{
+    height: 310px;
+    width: 260px;
+}
+.poster-description{
+    padding-left: 330px;
+}
+.poster-img-container{
+    padding-right: 220px;
+}
+.poster-description{
+    position: relative;
+     top: -160px; 
+}
+
+
+/* icon section styles */
+.icon-box{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    border: 3px solid transparent;
+    border-radius: 48px;
+    transition: border-color 0.3s ease;
+}
+
+.icon-box:hover{
+    color: #FF42A5 ;
+    border-color: #FF42A5;
+   
+}
+
+.icon-name{
+    color: #0B0223;
+font-size: 16px;
+
+}
+.icon-name:hover{
+    color:#FF42A5 ;
+}
+
+.icon-list1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+
+.icon-list2{
+   display: flex;
+   justify-content: center;
+   gap: 90px;
+   padding-top: 40px;
+   padding-bottom: 80px;
+}
+
+
+/* footer styles */
+.footer-text1{
+    color:white;
+text-align: center;
+font-size: 16px;
+}
+
+.footer-contaner{
+    background-color: #0B0223;
+}
+
+.footer-icon-name{
+    color: white;
+font-size: 32px;
 font-weight: 700;
 }
+.footer-title{
+    display: flex;
+    align-items: center;
+}
+.footer-contaner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.footer-lines{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 40px;
+}
+.footer-icon-img i{
+    color: white;
+    font-size: 2.5rem;
+}
+.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-text2{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+
+}
+.footer-line2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px;
+}
+
+
+
+
+
+/* mobile and small device view */
+
+@media screen and (max-width:576px) {
+
+nav , .nav-buttons > ul ,.banner2-container ,.video-img-container, .poster-container, .footer-contaner {
+    flex-direction: column;
+    
+}
+nav,.nav-buttons >ul,.nav-icon-container,.nav-buttons ,.banner-describtion , #banner-img ,.banner2-img ,.banner2-description {
+    padding:15px 5px 20px 5px ;
+}
+.banner-container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+}
+#banner-img img , .banner2-img img{
+    height: 100%;
+    width: 100%;
+}
+.poster-description{
+    padding-left: 5px;
+}
+.poster-img-container{
+    padding-right: 5px;
+}
+.poster-description{
+    position:static;
+     
+}
+.poster-img1 img{
+    height:70%;
+    width: 80%;
+    padding-left:40px;
+}
+.poster-img2 img{
+    height:140px ;
+    width: 120px;
+}
+.poster-img2{
+    position: relative;
+    right: 0px;
+    top: -100px;
+}
+.icon-list1{
+    flex-wrap: wrap;
+}
+.icon-list2{
+   flex-wrap: wrap;
+ }
+ 
+ .footer-lines{
+   
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.footer-icons{
+
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-line2{
+ 
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+}
+
+}
+
+
+
+
+/* medium -device 
+@media screen and (min-width:577px) and (max-width:960px) {
+    
+
+
+ } */
